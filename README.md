@@ -41,7 +41,7 @@ There are two models included in this repository. One the [PredRNN](https://gith
 
 Model Structure of ST-GasNet++ |  Detailed Structure of Each Module
 :-------------------------:|:-------------------------:
-![model_arc](./Images/ST-GasNet.png)  |  ![module_arc](./Images/ST-GasNet-Module.png)
+![model_arc](./Images/GasNet.png)  |  ![module_arc](./Images/GasNet-Module.png)
 
 
 
