@@ -31,8 +31,8 @@ opencv-python 4.10.0
 
 ## Data Introduction
 
-Each simulation contains a sequence of cloud propagation influenced by different wind speeds and directions. The input of the proposed method is the intial few steps and the output is the predicted future steps. The data is demonstrated as follows.
-![data](./images/Inputs.png)
+Each simulation contains a sequence of cloud propagation influenced by different wind speeds and directions. The input of the proposed method is the initial few steps and the output is the predicted future steps. The data is demonstrated as follows.
+![data](./Images/Inputs.png)
 
 
 ## Models
@@ -41,7 +41,7 @@ There are two models included in this repository. One the [PredRNN](https://gith
 
 Model Structure of ST-GasNet++ |  Detailed Structure of Each Module
 :-------------------------:|:-------------------------:
-![model_arc](./images/ST-GasNet.png)  |  ![module_arc](./images/ST-GasNet-Module.png)
+![model_arc](./Images/ST-GasNet.png)  |  ![module_arc](./Images/ST-GasNet-Module.png)
 
 
 
