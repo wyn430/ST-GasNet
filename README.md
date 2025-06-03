@@ -41,7 +41,7 @@ There are two models included in this repository. One the [PredRNN](https://gith
 
 Model Structure of ST-GasNet++ |  Detailed Structure of Each Module
 :-------------------------:|:-------------------------:
-![model_arc](./Images/GasNet.png)  |  ![module_arc](./Images/GasNet-Module.png)
+![model_arc](./Images/GasNet_Structure.png)  |  ![module_arc](./Images/GasNet_Module.png)
 
 
 
@@ -80,9 +80,9 @@ Part of the results are demonstrated below.
 
 Wind Speed (m/s) | Direction (degree) | Input |  Output (True) |  PredRNN (w/o wind) |  ST-GasNet++ (w/o wind) |  PredRNN (wind) |  ST-GasNet++ (wind)
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-340 | 3 |  ![1-1](./images/1-1.gif)  |  ![1-2](./images/1-2.gif)  |  ![1-3](./images/1-3.gif)  |  ![1-4](./images/1-4.gif)  |  ![1-5](./images/1-5.gif)  |  ![1-6](./images/1-6.gif)
+340 | 3 |  ![1-1](./Images/1-1.gif)  |  ![1-2](./Images/1-2.gif)  |  ![1-3](./Images/1-3.gif)  |  ![1-4](./Images/1-4.gif)  |  ![1-5](./Images/1-5.gif)  |  ![1-6](./Images/1-6.gif)
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-270 | 2 |  ![2-1](./images/2-1.gif)  |  ![2-2](./images/2-2.gif)  |  ![2-3](./images/2-3.gif)  |  ![2-4](./images/2-4.gif)  |  ![2-5](./images/2-5.gif)  |  ![2-6](./images/2-6.gif)
+270 | 2 |  ![2-1](./Images/2-1.gif)  |  ![2-2](./Images/2-2.gif)  |  ![2-3](./Images/2-3.gif)  |  ![2-4](./Images/2-4.gif)  |  ![2-5](./Images/2-5.gif)  |  ![2-6](./Images/2-6.gif)
 
 ## Acknowledgement
 
