@@ -37,9 +37,9 @@ Each simulation contains a sequence of cloud propagation influenced by different
 
 ## Models
 
-There are two models included in this repository. One the [PredRNN](https://github.com/thuml/predrnn-pytorch), the other is proposed [ST-GasNet++](./ST-GasNet/core/models/predrnn_memory_decoupling_2nd_order_ST.py). The architectures of these two models are demonstrated in the following figures. 
+There are two models included in this repository. One the [PredRNN](https://github.com/thuml/predrnn-pytorch), the other is proposed [ST-GasNet](./ST-GasNet/core/models/predrnn_memory_decoupling_2nd_order_ST.py). The architecture of the proposed ST-GasNet is demonstrated in the following figures. 
 
-Model Structure of ST-GasNet++ |  Detailed Structure of Each Module
+Model Structure of ST-GasNet |  Detailed Structure of Each Module
 :-------------------------:|:-------------------------:
 ![model_arc](./Images/GasNet_Structure.png)  |  ![module_arc](./Images/GasNet_Module.png)
 
@@ -78,7 +78,7 @@ The Pre-trained models are stored in [here](./Pretrained_Models). Eight types of
 
 Part of the results are demonstrated below.
 
-Wind Speed (m/s) | Direction (degree) | Input |  Output (True) |  PredRNN (w/o wind) |  ST-GasNet++ (w/o wind) |  PredRNN (wind) |  ST-GasNet++ (wind)
+Wind Speed (m/s) | Direction (degree) | Input |  Output (True) |  PredRNN (w/o wind) |  ST-GasNet (w/o wind) |  PredRNN (wind) |  ST-GasNet (wind)
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
 340 | 3 |  ![1-1](./Images/1-1.gif)  |  ![1-2](./Images/1-2.gif)  |  ![1-3](./Images/1-3.gif)  |  ![1-4](./Images/1-4.gif)  |  ![1-5](./Images/1-5.gif)  |  ![1-6](./Images/1-6.gif)
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
